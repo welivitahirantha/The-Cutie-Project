@@ -21,8 +21,15 @@ body {
 }
 
 a.navbar-brand {
+  position: absolute;
   font-family: 'Pacifico', cursive;
   font-size: 3.5rem;
+  left: -10rem;
+}
+
+.navbar-nav {
+  position: relative;
+  right: -10rem;
 }
 
 .nav-item {
@@ -173,3 +180,4 @@ opacity: 0.9;
     padding: 3% 15% 6%;
   }
 }
+
